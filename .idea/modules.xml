@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/paintchip-flask.iml" filepath="$PROJECT_DIR$/.idea/paintchip-flask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pixi_game/.idea/pixi_game.iml" filepath="$PROJECT_DIR$/../pixi_game/.idea/pixi_game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../reader-flask/.idea/reader-flask.iml" filepath="$PROJECT_DIR$/../reader-flask/.idea/reader-flask.iml" />
     </modules>
   </component>
 </project>
