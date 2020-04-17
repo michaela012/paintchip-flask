@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af342949-aceb-4fda-b3f8-ef9853dd1e15" name="Default Changelist" comment="setup">
-      <change afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pixi_game/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/paintchip-flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reader-flask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/reader-flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reader-flask.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,24 +46,45 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pixi_game" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.feed">
+    <configuration name="feed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="reader-flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="paintchip-flask" type="Python.FlaskServer">
       <module name="reader-flask" />
-      <option name="target" value="$PROJECT_DIR$/../reader-flask/app.py" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../reader-flask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -69,6 +92,11 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.feed" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,7 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1585856809765</updated>
       <workItem from="1585856846921" duration="5353000" />
-      <workItem from="1586366571344" duration="230000" />
+      <workItem from="1586366571344" duration="7326000" />
+      <workItem from="1586804581949" duration="9555000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1585873812584</created>
@@ -101,7 +130,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup" />
@@ -116,10 +145,26 @@
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
     <state x="1283" y="740" width="424" height="484" key="FileChooserDialogImpl/0.27.3000.1973@0.27.3000.1973" timestamp="1585874208720" />
-    <state x="1019" y="647" key="SettingsEditor" timestamp="1585857207693">
+    <state width="2958" height="482" key="GridCell.Tab.0.bottom" timestamp="1587137461673">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state x="1019" y="647" key="SettingsEditor/0.27.3000.1973@0.27.3000.1973" timestamp="1585857207693" />
+    <state width="2958" height="482" key="GridCell.Tab.0.bottom/0.27.3000.1973@0.27.3000.1973" timestamp="1587137461673" />
+    <state width="2958" height="482" key="GridCell.Tab.0.center" timestamp="1587137461671">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state width="2958" height="482" key="GridCell.Tab.0.center/0.27.3000.1973@0.27.3000.1973" timestamp="1587137461671" />
+    <state width="2958" height="482" key="GridCell.Tab.0.left" timestamp="1587137461669">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state width="2958" height="482" key="GridCell.Tab.0.left/0.27.3000.1973@0.27.3000.1973" timestamp="1587137461669" />
+    <state width="2958" height="482" key="GridCell.Tab.0.right" timestamp="1587137461672">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state width="2958" height="482" key="GridCell.Tab.0.right/0.27.3000.1973@0.27.3000.1973" timestamp="1587137461672" />
+    <state x="1019" y="647" key="SettingsEditor" timestamp="1587135907556">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state x="1019" y="647" key="SettingsEditor/0.27.3000.1973@0.27.3000.1973" timestamp="1587135907556" />
     <state x="1095" y="707" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1585873994774">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
@@ -128,9 +173,17 @@
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
     <state x="1207" y="840" key="com.intellij.ide.util.TipDialog/0.27.3000.1973@0.27.3000.1973" timestamp="1586366586130" />
+    <state x="1233" y="808" width="523" height="409" key="git4idea.merge.GitPullDialog" timestamp="1586366975202">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state x="1233" y="808" width="523" height="409" key="git4idea.merge.GitPullDialog/0.27.3000.1973@0.27.3000.1973" timestamp="1586366975202" />
     <state x="1163" y="487" width="672" height="678" key="search.everywhere.popup" timestamp="1585857096689">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
     <state x="1163" y="487" width="672" height="678" key="search.everywhere.popup/0.27.3000.1973@0.27.3000.1973" timestamp="1585857096689" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/reader_flask$feed.coverage" NAME="feed Coverage Results" MODIFIED="1587137461652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/reader_flask$paintchip_flask.coverage" NAME="paintchip-flask Coverage Results" MODIFIED="1587095776843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
