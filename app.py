@@ -10,6 +10,8 @@ from models import *
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    if request.method == 'POST':
+        print(request.form.get('username'))
     return render_template('home.html')
 
 
