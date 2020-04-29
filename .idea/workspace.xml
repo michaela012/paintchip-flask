@@ -3,12 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="af342949-aceb-4fda-b3f8-ef9853dd1e15" name="Default Changelist" comment="setup">
       <change afterPath="$PROJECT_DIR$/../pixi_game/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/authenticate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/reader-flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reader-flask.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed.py" beforeDir="false" afterPath="$PROJECT_DIR$/feed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
@@ -53,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyDependenciesConfigurable" />
   </component>
   <component name="RunManager" selected="Flask server.Flask (app.py)">
     <configuration name="feed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -78,6 +80,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="reader-flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="reader-flask" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -85,23 +109,8 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="paintchip-flask" type="Python.FlaskServer">
-      <module name="reader-flask" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
-      <option name="targetType" value="PATH" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -111,6 +120,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Python.models" />
         <item itemvalue="Python.feed" />
       </list>
     </recent_temporary>
@@ -128,7 +138,10 @@
       <workItem from="1585856846921" duration="5353000" />
       <workItem from="1586366571344" duration="7326000" />
       <workItem from="1586804581949" duration="16039000" />
-      <workItem from="1587225192597" duration="21405000" />
+      <workItem from="1587225192597" duration="40790000" />
+      <workItem from="1587749880032" duration="4206000" />
+      <workItem from="1588019352306" duration="3637000" />
+      <workItem from="1588173366551" duration="1942000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1585873812584</created>
@@ -151,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587137971271</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="db structure, basic form on homepage working, connected to db">
+      <created>1587394884853</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587394884853</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,41 +180,58 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup" />
     <MESSAGE value="feed class" />
-    <option name="LAST_COMMIT_MESSAGE" value="feed class" />
+    <MESSAGE value="db structure, basic form on homepage working, connected to db" />
+    <option name="LAST_COMMIT_MESSAGE" value="db structure, basic form on homepage working, connected to db" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1140" y="583" width="710" height="799" key="CommitChangelistDialog2" timestamp="1587137970788">
+    <state x="1140" y="583" width="710" height="799" key="CommitChangelistDialog2" timestamp="1587394884354">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state x="1140" y="583" width="710" height="799" key="CommitChangelistDialog2/0.27.3000.1973@0.27.3000.1973" timestamp="1587137970788" />
+    <state x="1140" y="583" width="710" height="799" key="CommitChangelistDialog2/0.27.3000.1973@0.27.3000.1973" timestamp="1587394884354" />
     <state x="1283" y="740" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585874208720">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
     <state x="1283" y="740" width="424" height="484" key="FileChooserDialogImpl/0.27.3000.1973@0.27.3000.1973" timestamp="1585874208720" />
-    <state width="2958" height="480" key="GridCell.Tab.0.bottom" timestamp="1587394573097">
+    <state width="2958" height="480" key="GridCell.Tab.0.bottom" timestamp="1587829673341">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state width="2958" height="480" key="GridCell.Tab.0.bottom/0.27.3000.1973@0.27.3000.1973" timestamp="1587394573097" />
-    <state width="2958" height="480" key="GridCell.Tab.0.center" timestamp="1587394573095">
+    <state width="2958" height="480" key="GridCell.Tab.0.bottom/0.27.3000.1973@0.27.3000.1973" timestamp="1587829673341" />
+    <state width="2958" height="480" key="GridCell.Tab.0.center" timestamp="1587829673339">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state width="2958" height="480" key="GridCell.Tab.0.center/0.27.3000.1973@0.27.3000.1973" timestamp="1587394573095" />
-    <state width="2958" height="480" key="GridCell.Tab.0.left" timestamp="1587394573093">
+    <state width="2958" height="480" key="GridCell.Tab.0.center/0.27.3000.1973@0.27.3000.1973" timestamp="1587829673339" />
+    <state width="2958" height="480" key="GridCell.Tab.0.left" timestamp="1587829673338">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state width="2958" height="480" key="GridCell.Tab.0.left/0.27.3000.1973@0.27.3000.1973" timestamp="1587394573093" />
-    <state width="2958" height="480" key="GridCell.Tab.0.right" timestamp="1587394573096">
+    <state width="2958" height="480" key="GridCell.Tab.0.left/0.27.3000.1973@0.27.3000.1973" timestamp="1587829673338" />
+    <state width="2958" height="480" key="GridCell.Tab.0.right" timestamp="1587829673340">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state width="2958" height="480" key="GridCell.Tab.0.right/0.27.3000.1973@0.27.3000.1973" timestamp="1587394573096" />
-    <state x="1019" y="647" key="SettingsEditor" timestamp="1587347455023">
+    <state width="2958" height="480" key="GridCell.Tab.0.right/0.27.3000.1973@0.27.3000.1973" timestamp="1587829673340" />
+    <state width="2958" height="734" key="GridCell.Tab.1.bottom" timestamp="1587827952138">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state x="1019" y="647" key="SettingsEditor/0.27.3000.1973@0.27.3000.1973" timestamp="1587347455023" />
-    <state x="1095" y="707" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1587137981886">
+    <state width="2958" height="734" key="GridCell.Tab.1.bottom/0.27.3000.1973@0.27.3000.1973" timestamp="1587827952138" />
+    <state width="2958" height="734" key="GridCell.Tab.1.center" timestamp="1587827952136">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state x="1095" y="707" width="800" height="551" key="Vcs.Push.Dialog.v2/0.27.3000.1973@0.27.3000.1973" timestamp="1587137981886" />
+    <state width="2958" height="734" key="GridCell.Tab.1.center/0.27.3000.1973@0.27.3000.1973" timestamp="1587827952136" />
+    <state width="2958" height="734" key="GridCell.Tab.1.left" timestamp="1587827952133">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state width="2958" height="734" key="GridCell.Tab.1.left/0.27.3000.1973@0.27.3000.1973" timestamp="1587827952133" />
+    <state width="2958" height="734" key="GridCell.Tab.1.right" timestamp="1587827952137">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state width="2958" height="734" key="GridCell.Tab.1.right/0.27.3000.1973@0.27.3000.1973" timestamp="1587827952137" />
+    <state x="1019" y="647" key="SettingsEditor" timestamp="1588173615893">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state x="1019" y="647" key="SettingsEditor/0.27.3000.1973@0.27.3000.1973" timestamp="1588173615893" />
+    <state x="1095" y="707" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1587394891822">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state x="1095" y="707" width="800" height="551" key="Vcs.Push.Dialog.v2/0.27.3000.1973@0.27.3000.1973" timestamp="1587394891822" />
     <state x="1207" y="840" key="com.intellij.ide.util.TipDialog" timestamp="1586366586130">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
@@ -211,6 +248,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/reader_flask$feed.coverage" NAME="feed Coverage Results" MODIFIED="1587352119413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/reader_flask$paintchip_flask.coverage" NAME="paintchip-flask Coverage Results" MODIFIED="1587095776843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/reader_flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1587394675034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/reader_flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1588082232992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/reader_flask$models.coverage" NAME="models Coverage Results" MODIFIED="1587828210850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-from app import db
+from app import app, db
 from datetime import datetime
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -20,8 +20,7 @@ class User(UserMixin, db.Model):
                       nullable=False)
     password_hash = db.Column(db.Text,
                               index=False,
-                              unique=False,
-                              nullable=False)
+                              unique=False)
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
 
