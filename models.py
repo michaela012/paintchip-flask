@@ -13,7 +13,6 @@ class User(UserMixin, db.Model):
                          index=False,
                          unique=True,
                          nullable=False)
-
     email = db.Column(db.Text,
                       index=False,
                       unique=True,
