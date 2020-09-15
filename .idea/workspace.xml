@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="af342949-aceb-4fda-b3f8-ef9853dd1e15" name="Default Changelist" comment="setup">
-      <change afterPath="$PROJECT_DIR$/../pixi_game/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +89,74 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="pixi_game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="pixi_game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="pixi_game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="pixi_game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="feed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="reader-flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,6 +216,99 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="pixi_game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="pixi_game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="pixi_game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="pixi_game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="pixi_game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="pixi_game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Flask server.Flask (app.py)" />
@@ -169,7 +345,7 @@
       <workItem from="1596406555556" duration="5905000" />
       <workItem from="1597542904978" duration="4675000" />
       <workItem from="1598286655154" duration="9027000" />
-      <workItem from="1600205041880" duration="2157000" />
+      <workItem from="1600205041880" duration="2546000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1585873812584</created>
@@ -212,6 +388,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup" />
     <MESSAGE value="feed class" />
@@ -220,30 +407,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="db entries successful for new account registration" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="594" y="583" width="1704" height="856" key="CommitChangelistDialog2" timestamp="1600207970597">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state x="594" y="583" width="1704" height="856" key="CommitChangelistDialog2/0.27.3000.1973@0.27.3000.1973" timestamp="1600207970597" />
     <state x="1282" y="740" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598467399191">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
     <state x="1282" y="740" width="424" height="484" key="FileChooserDialogImpl/0.27.3000.1973@0.27.3000.1973" timestamp="1598467399191" />
-    <state width="2004" height="732" key="GridCell.Tab.0.bottom" timestamp="1600206785694">
+    <state width="2004" height="732" key="GridCell.Tab.0.bottom" timestamp="1600207202643">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state width="2004" height="732" key="GridCell.Tab.0.bottom/0.27.3000.1973@0.27.3000.1973" timestamp="1600206785694" />
+    <state width="2004" height="732" key="GridCell.Tab.0.bottom/0.27.3000.1973@0.27.3000.1973" timestamp="1600207202643" />
     <state width="2956" height="478" key="GridCell.Tab.0.bottom/0.27.4920.1973@0.27.4920.1973" timestamp="1598293440076" />
-    <state width="2004" height="732" key="GridCell.Tab.0.center" timestamp="1600206785693">
+    <state width="2004" height="732" key="GridCell.Tab.0.center" timestamp="1600207202641">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state width="2004" height="732" key="GridCell.Tab.0.center/0.27.3000.1973@0.27.3000.1973" timestamp="1600206785693" />
+    <state width="2004" height="732" key="GridCell.Tab.0.center/0.27.3000.1973@0.27.3000.1973" timestamp="1600207202641" />
     <state width="2956" height="478" key="GridCell.Tab.0.center/0.27.4920.1973@0.27.4920.1973" timestamp="1598293440075" />
-    <state width="2004" height="732" key="GridCell.Tab.0.left" timestamp="1600206785693">
+    <state width="2004" height="732" key="GridCell.Tab.0.left" timestamp="1600207202640">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state width="2004" height="732" key="GridCell.Tab.0.left/0.27.3000.1973@0.27.3000.1973" timestamp="1600206785693" />
+    <state width="2004" height="732" key="GridCell.Tab.0.left/0.27.3000.1973@0.27.3000.1973" timestamp="1600207202640" />
     <state width="2956" height="478" key="GridCell.Tab.0.left/0.27.4920.1973@0.27.4920.1973" timestamp="1598293440074" />
-    <state width="2004" height="732" key="GridCell.Tab.0.right" timestamp="1600206785694">
+    <state width="2004" height="732" key="GridCell.Tab.0.right" timestamp="1600207202642">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
-    <state width="2004" height="732" key="GridCell.Tab.0.right/0.27.3000.1973@0.27.3000.1973" timestamp="1600206785694" />
+    <state width="2004" height="732" key="GridCell.Tab.0.right/0.27.3000.1973@0.27.3000.1973" timestamp="1600207202642" />
     <state width="2956" height="478" key="GridCell.Tab.0.right/0.27.4920.1973@0.27.4920.1973" timestamp="1598293440075" />
+    <state width="2004" height="732" key="GridCell.Tab.1.bottom" timestamp="1600207202647">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state width="2004" height="732" key="GridCell.Tab.1.bottom/0.27.3000.1973@0.27.3000.1973" timestamp="1600207202647" />
+    <state width="2004" height="732" key="GridCell.Tab.1.center" timestamp="1600207202645">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state width="2004" height="732" key="GridCell.Tab.1.center/0.27.3000.1973@0.27.3000.1973" timestamp="1600207202645" />
+    <state width="2004" height="732" key="GridCell.Tab.1.left" timestamp="1600207202644">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state width="2004" height="732" key="GridCell.Tab.1.left/0.27.3000.1973@0.27.3000.1973" timestamp="1600207202644" />
+    <state width="2004" height="732" key="GridCell.Tab.1.right" timestamp="1600207202646">
+      <screen x="0" y="27" width="3000" height="1973" />
+    </state>
+    <state width="2004" height="732" key="GridCell.Tab.1.right/0.27.3000.1973@0.27.3000.1973" timestamp="1600207202646" />
     <state x="1019" y="647" key="SettingsEditor" timestamp="1600205604846">
       <screen x="0" y="27" width="3000" height="1973" />
     </state>
