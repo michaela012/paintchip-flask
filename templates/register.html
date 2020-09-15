@@ -4,9 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="static/register.js"></script>
     <title>newsread</title>
   </head>
 
@@ -21,7 +21,8 @@
   <body>
     Hello worllllld
     <form method='POST'>
-        username: <input type="text" name="username"> &nbsp &nbsp <input type="submit" name="action" value="check availability"> <br>
+        username: <input type="text" name="username" id="username"> &nbsp &nbsp <button name="action" onclick="checkUsernameAvailability()">check availability</button> <br>
+        <div id=usernameAvailability> </div>
         password: <input type="text" name="password"> <br>
         email: <input type="text" name="email"> <br>
         <input type="submit" name="action" value="create account">

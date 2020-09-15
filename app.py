@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
-from flask_login import login_manager, login_required
+from flask_login import LoginManager, login_required
 from flask_sqlalchemy import SQLAlchemy
 from config import Config
 
@@ -32,7 +32,8 @@ def register():
         # TODO: change returns to error flashing (give feedback on page)
         if action == 'check availability':
             if user_exists:
-                return 'in use'
+                pass;
+                # return 'in use'
             else:
                 return 'not in use'
         else:    # action == create account
